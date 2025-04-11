@@ -1,13 +1,13 @@
-# auto-readme
+# Doclite
 
 [![Status](https://img.shields.io/badge/status-planning-yellow.svg)](https://#)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://#)  Automatically generate and update project READMEs from your Git history. Focus on coding, let `auto-readme` handle the documentation grind.
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://#)  Automatically generate and update project READMEs from your Git history. Focus on coding, let `Doclite` handle the documentation grind.
 
 ## 🎯 Vision and Problem Statement
 
 Modern developers often follow a code-first workflow. They create a repository, start building features, and push commits daily—but often neglect proper documentation until the very end. This leads to incomplete, outdated, or poorly structured README files that fail to reflect the true progress and structure of a project.
 
-`auto-readme` aims to solve this by providing a simple, elegant, developer-first tool that automatically generates and updates a meaningful `README.md` based on the actual work being done in the repository.
+`Doclite` aims to solve this by providing a simple, elegant, developer-first tool that automatically generates and updates a meaningful `README.md` based on the actual work being done in the repository.
 
 ## ✨ Core Philosophy
 
@@ -30,7 +30,7 @@ Modern developers often follow a code-first workflow. They create a repository, 
 ### Version 1.0 - MVP (CLI Tool)
 * **Purpose:** Generate a basic but meaningful README.md with useful content for any codebase.
 * **Features:**
-    * `auto-readme init`: Creates a `README.md`.
+    * `Doclite init`: Creates a `README.md`.
     * Detects project name (from folder or Git).
     * Includes placeholder for project description.
     * Parses and displays folder/file structure.
@@ -42,8 +42,8 @@ Modern developers often follow a code-first workflow. They create a repository, 
 
 ### Version 1.1 - Daily Mode + Custom Sections
 * **Features:**
-    * `auto-readme daily`: Appends only the current day’s commits to the progress/changelog section.
-    * Introduces a `.auto-readmerc` configuration file.
+    * `Doclite daily`: Appends only the current day’s commits to the progress/changelog section.
+    * Introduces a `.Docliterc` configuration file.
     * Allows setting custom section titles (e.g., "Recent Changes" instead of "Progress Log").
     * Provides options to include/exclude specific sections.
     * Implements smarter overwrite protection to preserve custom user content within the README.
@@ -72,7 +72,7 @@ Modern developers often follow a code-first workflow. They create a repository, 
 ### Version 3.0 - GitHub Action Support
 * **Features:**
     * Enables automatic README generation/update on every push or on a schedule (e.g., weekly) via GitHub Actions.
-    * Configuration managed through `.github/auto-readme.yml`.
+    * Configuration managed through `.github/Doclite.yml`.
     * Option to run within Pull Requests to generate a preview summary of proposed changes.
 
 ## 🛠️ Tech Stack (Evaluation)
@@ -92,13 +92,13 @@ Modern developers often follow a code-first workflow. They create a repository, 
 
 ## 🏷️ Naming Considerations
 
-* **CLI Tool:** `auto-readme`
-* **VS Code Extension:** `auto-readme-vscode`
+* **CLI Tool:** `Doclite`
+* **VS Code Extension:** `Doclite-vscode`
 * **Future Web/Chrome Extension:** `readme-glance`, `docless`, `gitpeek`
 
 ## 🔭 Long-Term Potential & Future Vision
 
-* Develop a suite of tools under the `auto-readme` ecosystem.
+* Develop a suite of tools under the `Doclite` ecosystem.
 * Establish a standard for automated project documentation.
 * Integrate seamlessly with platforms like GitHub, GitLab, and Bitbucket.
 * Enhance support for team projects, including multi-user commit summaries.
