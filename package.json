@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^13.1.0",
+    "doclite": "file:",
+    "inquirer": "^12.5.2",
     "simple-git": "^3.27.0"
   }
 }
