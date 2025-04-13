@@ -122,4 +122,3 @@ MIT — do what you want, just don't forget to credit.
 
 Made with ❤️ by [Lakshya Bhardwaj](https://github.com/Lakshya1509)  
 Follow me on [GitHub](https://github.com/Lakshya1509) for more CLI magic.
->>>>>>> 171f6f07ea6bf27feee846137c23467cb482cac4
