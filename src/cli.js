@@ -14,7 +14,12 @@ program
 program
   .command('init')
   .description('Initialize or update the README.md for your project using Doclite')
-  .action(initializeReadme);
+  .option('-d, --dry-run', 'Preview the README.md content without writing the file')
+  .option('-c, --commits <number>', 'Number of commits to include in the log', '5') // Expects a value, defaults to '5'
+
+  .action((options) => {
+      initializeReadme(options);
+  });
 
 program
 .command('help')

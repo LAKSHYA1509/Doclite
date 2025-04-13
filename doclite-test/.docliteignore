@@ -1,0 +1,5 @@
+env
+logs
+temp
+debug.log
+secret
