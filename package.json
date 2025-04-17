@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "doclite": "./src/cli.js"
+    "doclite": "src/cli.js"
   },
   "keywords": [
     "readme-generator",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Lakshya1509/doclite"
+    "url": "git+https://github.com/Lakshya1509/doclite.git"
   },
   "engines": {
     "node": ">=14"
@@ -28,8 +28,15 @@
   "dependencies": {
     "@lakshya1509/doclite": "file:",
     "commander": "^13.1.0",
+    "cosmiconfig": "^9.0.0",
+    "directory-tree": "^3.5.2",
     "doclite": "file:",
     "inquirer": "^12.5.2",
+    "project-readme-gen": "^1.0.2",
     "simple-git": "^3.27.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Lakshya1509/doclite/issues"
+  },
+  "homepage": "https://github.com/Lakshya1509/doclite#readme"
 }
