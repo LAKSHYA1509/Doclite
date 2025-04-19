@@ -1,0 +1,16 @@
+{
+  "outputDir": "y",
+  "sections": [
+    "Project Overview",
+    "Installation",
+    "Usage",
+    "Commands",
+    "Configuration",
+    "Contributing",
+    "License"
+  ],
+  "template": "Detailed",
+  "autoGenerate": true,
+  "version": "2.0.0",
+  "timestamp": "2025-04-17T18:33:05.496Z"
+}

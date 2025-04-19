@@ -27,16 +27,26 @@
   },
   "dependencies": {
     "@lakshya1509/doclite": "file:",
+    "axios": "^1.8.4",
     "commander": "^13.1.0",
     "cosmiconfig": "^9.0.0",
     "directory-tree": "^3.5.2",
     "doclite": "file:",
+    "handlebars": "^4.7.8",
     "inquirer": "^12.5.2",
+    "openai": "^4.95.1",
     "project-readme-gen": "^1.0.2",
-    "simple-git": "^3.27.0"
+    "simple-git": "^3.27.0",
+    "util": "^0.12.5"
   },
   "bugs": {
     "url": "https://github.com/Lakshya1509/doclite/issues"
   },
-  "homepage": "https://github.com/Lakshya1509/doclite#readme"
+  "homepage": "https://github.com/Lakshya1509/doclite#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "doclite generate",
+      "post-commit": "git add README.md && git commit --amend --no-edit"
+    }
+  }
 }
