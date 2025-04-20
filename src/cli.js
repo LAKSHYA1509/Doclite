@@ -29,6 +29,7 @@ program
   .description('Detect project type and structure')
   .option('-e, --detect', 'Preview the detected project structure without writing the file')
   .option('-i, --include [paths]', 'Comma-separated list of files/folders to scan')
+  .option('-a, --ai <provider>', 'AI provider to use (openai|ollama)', 'openai')
   .action((options) => {
     detectProject(options);
   });
@@ -36,6 +37,7 @@ program
 program
   .command('setup')
   .description('Generate setup instructions')
+  .option('-a, --ai <provider>', 'AI provider to use (openai|ollama)', 'openai')
   .action((options) => {
     setupCommand(options);
   });
@@ -45,6 +47,7 @@ program
     .command('generate')
     .description('Generate complete README using detected configuration')
     .option('-c, --commits <number>', 'Number of commits to include in the log', '5')
+    .option('-a, --ai <provider>', 'AI provider to use (openai|ollama)', 'openai')
     .action((options) => {
         generateCommand(options);
     });

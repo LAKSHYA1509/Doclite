@@ -26,6 +26,12 @@ async function fileExists(filePath) {
 async function detectProject(options) {
     console.log('\n🔍 Starting Smart Project Analysis...\n');
 
+    const aiProvider = options.ai || 'openai';
+    if (aiProvider === 'ollama') {
+        console.log('🦙 Ollama support coming soon! For now, only OpenAI is supported.');
+        return;
+    }
+
     try {
         const projectPath = process.cwd();
         let selectedPath = [];
@@ -50,7 +56,7 @@ async function detectProject(options) {
             const absPath = path.join(projectPath, relPath);
             const stat = await fs.stat(absPath);
             if (stat.isFile()) {
-                const fileContent = (await fs.readFile(absPath, 'utf-8')).split('\n').slice(0, 200).join('\n');                console.log(`\n🧠 Analyzing ${relPath} with Ollama...`);
+                const fileContent = (await fs.readFile(absPath, 'utf-8')).split('\n').slice(0, 200).join('\n');                console.log(`\n🧠 Analyzing ${relPath} with OpenAI...`);
 const features = await getOpenAIFeatures(fileContent, 'gpt-3.5-turbo');                
 console.log(`\n🔎 Features detected in ${relPath}:\n${features}`);
             } else {
