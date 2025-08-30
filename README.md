@@ -1,6 +1,6 @@
 # @lakshya1509/doclite
 
-A powerful documentation generator for modern projects. Built with Powered Technology of Javascript
+A powerful documentation generator for modern projects. Built with Powered Technology of Javascript for different project structures
 
 ---
 
