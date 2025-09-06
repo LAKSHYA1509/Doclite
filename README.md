@@ -7,7 +7,7 @@ Now Available as NPM package available by same name
 
 **Framework:** Commander.js
 **Language:** JavaScript/Node.js
-**Version:** 1.0.0
+**Version:** 2.0.0
 **Type:** CLI Tool
 
 ---
