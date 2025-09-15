@@ -1,7 +1,7 @@
 # @lakshya1509/doclite
 
 A powerful documentation generator for modern projects. Built with Powered Technology of Javascript for different project structures like spring,python, Javascript including node and next
-Now Available as NPM package available by same name.
+Now Available as NPM package available by same name..
 
 ---
 
