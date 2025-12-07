@@ -65,7 +65,7 @@ Last 5 commits:
 - 09ccb34 (2025-04-17): Merge branch &#x27;main&#x27; of https://github.com/LAKSHYA1509/Doclite [LAKSHYA BHARDWAJ]
 - de48ee8 (2025-04-17): Started working for doclite new version and added detect and setup and generate commands files and soon will make the project description with more detail. [LAKSHYA BHARDWAJ]
 - 235a4d1 (2025-04-14): Breaking fixing [LAKSHYA BHARDWAJ]
-- aedeb5e (2025-04-13): Npm published [LAKSHYA BHARDWAJ]
+- aedeb5e (2025-04-13) [LAKSHYA BHARDWAJ]
 
 
 
